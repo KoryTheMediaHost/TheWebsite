@@ -1,0 +1,16 @@
+
+
+
+body {
+    background: #212121;
+}
+.clock {
+    position: fixed;
+    top:  91%;
+    left: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #e8ebe9;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 7px;
+}
