@@ -2,19 +2,62 @@
     <html>
         <head>
             <body>
-                <title>Home</title>
+                <title>Desktop</title>
                 
                 
                 
-                <DOCTYPE html>
-                    <html>
-                        <head>
-                            <body>
-                                <title>Home</title>
+
                                 
-                                
-      
-                
+                                <style>
+                                    * {
+                                      box-sizing: border-box;
+                                    }
+                                    
+                                    .column {
+                                      float: bottom;
+                                      height: 70px;
+                                      width: 70px;
+                                      padding: 5px;
+                                    }
+                                    
+                                    /* Clearfix (clear floats) */
+                                    .row::after {
+                                      content: "";
+                                      clear: both;
+                                      display: table;
+                                    }
+
+                                    .smh::after {
+                                      content: "";
+                                      clear: both;
+                                      display: table;
+                                    }
+                                    
+                                    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+                                    @media screen and (max-width: 10px) {
+                                      .column {
+                                        width: 100%;
+                                      }
+                                    }
+                                    </style>
+                                    
+                                    <div class="row">
+                                        <div class="column">
+                                          <a href="lumo_msngr.html">
+                                            <img src="./resource/img/msg.png" alt="msg" style="width:100%">
+                                            </a>
+                                        </div>
+                                        <div class="column">
+                                          <a href="internet.html">
+                                            <img src="./resource/img/chrome.png" alt="chrome" style="width:100%">
+                                          </a>
+                                        </div>
+                                        <div class="column">
+                                            <a href="settings.html">
+                                                <img src="resource/img/settings.png" alt="settings" style="width:100%">
+                                            </a>
+                                        </div>
+                                      </div>
                 
                 
                 
